@@ -13,16 +13,17 @@ if civitai_api_key:
 
 # List of files to download
 files_to_download = {
-    "/workspace/ComfyUI/models/checkpoints/JANKU.safetensors": "https://civitai.com/api/download/models/1772645",
-    "/workspace/ComfyUI/models/loras/Disney.safetensors": "https://civitai.com/api/download/models/1416874",
-    "/workspace/ComfyUI/models/loras/Niji.safetensors": "https://civitai.com/api/download/models/1896419",
-    "/workspace/ComfyUI/models/loras/Incase.safetensors": "https://civitai.com/api/download/models/1189052",
-    "/workspace/ComfyUI/models/loras/Offset.safetensors": "https://civitai.com/api/download/models/151806",
-    "/workspace/ComfyUI/models/loras/SPO.safetensors": "https://civitai.com/api/download/models/567119",
-    "/workspace/ComfyUI/models/embeddings/lazyNeg.safetensor": "https://civitai.com/api/download/models/1860747",
+    "/workspace/ComfyUI/models/checkpoints/JANKUV4NSFWTrainedNoobaiEPS_v40.safetensors": "https://civitai.com/api/download/models/1772645",
+    "/workspace/ComfyUI/models/loras/Disney_Animation_v5-V7.safetensors": "https://civitai.com/api/download/models/1416874",
+    "/workspace/ComfyUI/models/loras/gothic_niji_style_ilxl_goofy.safetensors": "https://civitai.com/api/download/models/1896419",
+    "/workspace/ComfyUI/models/loras/incoth.safetensors": "https://civitai.com/api/download/models/1189052",
+    "/workspace/ComfyUI/models/loras/sdxl_offset_example_v10.safetensors": "https://civitai.com/api/download/models/151806",
+    "/workspace/ComfyUI/models/loras/spo_sdxl_10ep_4k-data_lora_webui.safetensors": "https://civitai.com/api/download/models/567119",
+    "/workspace/ComfyUI/models/embeddings/lazyneg.safetensor": "https://civitai.com/api/download/models/1860747",
     "/workspace/ComfyUI/models/embeddings/cr1sp.safetensor": "https://civitai.com/api/download/models/1942120",
-    "/workspace/ComfyUI/models/embeddings/lazyPos.safetensor": "https://civitai.com/api/download/models/1833157",
-    "/workspace/ComfyUI/models/embeddings/f4st.safetensor": "https://civitai.com/api/download/models/1853982",
+    "/workspace/ComfyUI/models/embeddings/lazypos.safetensor": "https://civitai.com/api/download/models/1833157",
+    "/workspace/ComfyUI/models/embeddings/F4st.safetensor": "https://civitai.com/api/download/models/1853982",
+    "/workspace/ComfyUI/models/upscale_models/4x-UltraSharp.pth": "https://civitai.com/api/download/models/125843",
 }
 
 # The download logic now includes the authorization header
